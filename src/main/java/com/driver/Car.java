@@ -53,6 +53,10 @@ public class Car extends Vehicle {
         return type;
     }
 
+    public boolean isManual() {
+        return isManual;
+    }
+
     public void changeGear(int newGear){
         currentGear = newGear;
         System.out.println("changeGear method called - The gear is changed to: " + currentGear);
