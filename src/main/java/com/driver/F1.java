@@ -7,6 +7,51 @@ public class F1 extends Car {
         //Use arbitrary values for parameters which are not mentioned
     }
 
+    @Override
+    public String getName() {
+        return super.getName();
+    }
+
+    @Override
+    public int getCurrentDirection() {
+        return super.getCurrentDirection();
+    }
+
+    @Override
+    public int getCurrentSpeed() {
+        return super.getCurrentSpeed();
+    }
+
+    @Override
+    public int getCurrentGear() {
+        return super.getCurrentGear();
+    }
+
+    @Override
+    public int getDoors() {
+        return super.getDoors();
+    }
+
+    @Override
+    public int getGears() {
+        return super.getGears();
+    }
+
+    @Override
+    public int getSeats() {
+        return super.getSeats();
+    }
+
+    @Override
+    public int getWheels() {
+        return super.getWheels();
+    }
+
+    @Override
+    public String getType() {
+        return super.getType();
+    }
+
     public void accelerate(int rate){
         int newSpeed = 0; //set the value of new speed by using currentSpeed and rate
         /*
