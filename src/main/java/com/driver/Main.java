@@ -7,13 +7,13 @@ public class Main {
         mercedes.accelerate(20);
         mercedes.accelerate(-60);
 
-        Vehicle splendor = new Vehicle("splend");
+        Vehicle splendor = new Vehicle("splendor");
         splendor.move(200, 360);
         splendor.steer(270);
         splendor.stop();
 
-        Boat bota = new Boat("Mercedes", 10);
-        System.out.println(bota.getVehicleName());
-        System.out.println(bota.getVehicleCapacity());
+        Boat cruiser = new Boat("Royale", 10);
+        System.out.println(cruiser.getVehicleName());
+        System.out.println(cruiser.getVehicleCapacity());
     }
 }
